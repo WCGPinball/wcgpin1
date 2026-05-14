@@ -1,0 +1,11 @@
+#config_version=6
+
+switches:
+  #playfield switches
+    s_bumper_left:
+      Number:
+      s_bumper_right:
+      Number:
+      s_left_lane:
+      Number:
+  #cabinet Switches
