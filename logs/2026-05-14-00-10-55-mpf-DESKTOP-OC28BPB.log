@@ -1,0 +1,133 @@
+2026-05-14 00:10:55,400 : INFO : root : Loading config.
+2026-05-14 00:10:55,426 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-05-14 00:10:55,426 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\79c4d80ce629f23fc794c150aa180213.mpf_cache
+2026-05-14 00:10:55,555 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\7e0b951d6590b841dca7e21104841ff3.mpf_cache
+2026-05-14 00:10:55,582 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\7619cb164ca9753a8c8174f599337faf.mpf_cache
+2026-05-14 00:10:55,586 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\7e0b951d6590b841dca7e21104841ff3.mpf_cache
+2026-05-14 00:10:55,587 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\e17831009a0d4b99b759e461e9901fd1.mpf_cache
+2026-05-14 00:10:55,589 : INFO : Machine : Mission Pinball Framework Core Engine v0.81.0.dev1
+2026-05-14 00:10:55,589 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-05-14-00-10-55-mpf-DESKTOP-OC28BPB.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\users\\mpf\\documents\\wcgpin1\\logs\\2026-05-14-00-10-55-mpf-DESKTOP-OC28BPB.log'}
+2026-05-14 00:10:55,589 : INFO : Machine : MPF path: C:\users\mpf\mpfven\Lib\site-packages\mpf
+2026-05-14 00:10:55,589 : INFO : Machine : Machine path: C:\users\mpf\documents\wcgpin1
+2026-05-14 00:10:55,589 : INFO : Machine : Platform: win32
+2026-05-14 00:10:55,589 : INFO : Machine : Python executable location: C:\users\mpf\mpfven\Scripts\python.exe
+2026-05-14 00:10:55,589 : INFO : Machine : Python version: 3.13.12 (64-bit)
+2026-05-14 00:10:55,591 : INFO : Machine : Initializing MPF...
+2026-05-14 00:10:55,912 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-05-14 00:10:55,935 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-05-14 00:10:55,935 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev1', 'prev_value': None, 'change': True}
+2026-05-14 00:10:55,935 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-05-14 00:10:55,935 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.12', 'prev_value': None, 'change': True}
+2026-05-14 00:10:56,173 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-05-14 00:10:56,173 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-05-14 00:10:56,173 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2026-05-14 00:10:56,173 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-05-14 00:10:56,173 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-05-14 00:10:56,173 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\users\\mpf\\documents\\wcgpin1\\logs\\2026-05-14-00-10-55-mpf-DESKTOP-OC28BPB.log', 'prev_value': None, 'change': True}
+2026-05-14 00:10:56,173 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-05-14 00:10:56,188 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-05-14 00:10:56,188 : ERROR : ConfigValidator : Your config contains a value for the setting "slide_player:pinball_spring_160", but this is not a valid setting name.
+2026-05-14 00:10:56,188 : ERROR : asyncio : Exception in callback EventManager._queue_task_done()
+handle: <Handle EventManager._queue_task_done()>
+Traceback (most recent call last):
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                mode_path=mode.path,
+                ^^^^^^^^^^^^^^^^^^^^
+                mode=mode,
+                ^^^^^^^^^^
+                root_config_dict=mode.config,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                **item.kwargs)
+                ^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\config_players\slide_player.py", line 21, in _validate_config_item
+    device_settings = self.machine.config_validator.validate_config(
+        'slide_player', device_settings)
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 validation_failure_info=validation_failure_info)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+                          'setting "' + path_string + '", but this is not a valid '
+                                                      'setting name.', 2, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Failed to load config player sound_player:slides with settings {'mode_attract_started': {'pinball_spring_160': {'bus': 'music'}}} >> Your config contains a value for the setting "slide_player:pinball_spring_160", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/latest/logs)
+2026-05-14 00:10:56,263 : INFO : Machine : Starting the main run loop with active modes: []
+2026-05-14 00:10:56,263 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-05-14 00:10:56,264 : INFO : Machine : Shutting down...
+2026-05-14 00:10:56,264 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-05-14 00:10:57,274 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\mode_controller.py", line 97, in initialize_modes
+    item.method(config=mode.config[item.config_section],
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                mode_path=mode.path,
+                ^^^^^^^^^^^^^^^^^^^^
+                mode=mode,
+                ^^^^^^^^^^
+                root_config_dict=mode.config,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                **item.kwargs)
+                ^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\config_player.py", line 150, in process_mode_config
+    config = self.validate_config(config)
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\config_player.py", line 113, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\config_players\slide_player.py", line 21, in _validate_config_item
+    device_settings = self.machine.config_validator.validate_config(
+        'slide_player', device_settings)
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                 validation_failure_info=validation_failure_info)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\config_validator.py", line 345, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+                          'setting "' + path_string + '", but this is not a valid '
+                                                      'setting name.', 2, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Failed to load config player sound_player:slides with settings {'mode_attract_started': {'pinball_spring_160': {'bus': 'music'}}} >> Your config contains a value for the setting "slide_player:pinball_spring_160", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/latest/logs)
+2026-05-14 00:10:57,340 : INFO : root : MPF run loop ended.

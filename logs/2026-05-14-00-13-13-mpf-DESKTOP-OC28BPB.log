@@ -1,0 +1,7 @@
+2026-05-14 00:13:13,055 : INFO : root : Loading config.
+2026-05-14 00:13:13,060 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-05-14 00:13:13,060 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\79c4d80ce629f23fc794c150aa180213.mpf_cache
+2026-05-14 00:13:13,160 : WARNING : ConfigProcessor : Config file in cache changed: C:\users\mpf\documents\wcgpin1\modes\attract\config\attract.yaml
+2026-05-14 00:13:13,160 : INFO : ConfigProcessor : Loading config from file C:\users\mpf\mpfven\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2026-05-14 00:13:13,165 : INFO : ConfigProcessor : Loading config: C:\users\mpf\mpfven\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-05-14 00:13:13,165 : INFO : ConfigProcessor : Loading config from file C:\users\mpf\documents\wcgpin1\modes\attract\config\attract.yaml.
