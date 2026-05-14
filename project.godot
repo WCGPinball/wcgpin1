@@ -23,6 +23,7 @@ MPF="*uid://c05iybd1a77mc"
 
 window/size/viewport_width=1280
 window/size/viewport_height=1024
+window/size/mode=2
 
 [editor_plugins]
 
