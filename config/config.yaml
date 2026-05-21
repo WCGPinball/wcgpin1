@@ -16,6 +16,7 @@ config:
 modes:
   - attract
   - base
+  - bumpers
 
 playfields:
   playfield:

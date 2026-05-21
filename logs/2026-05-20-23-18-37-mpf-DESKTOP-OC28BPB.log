@@ -1,0 +1,104 @@
+2026-05-20 23:18:37,967 : INFO : root : Loading config.
+2026-05-20 23:18:37,970 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-05-20 23:18:37,971 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\79c4d80ce629f23fc794c150aa180213.mpf_cache
+2026-05-20 23:18:37,972 : WARNING : ConfigProcessor : Config file in cache changed: C:\users\mpf\documents\wcgpin1\config\config_switches.yaml
+2026-05-20 23:18:37,972 : INFO : ConfigProcessor : Loading config from file C:\users\mpf\mpfven\Lib\site-packages\mpf\mpfconfig.yaml.
+2026-05-20 23:18:38,021 : INFO : ConfigProcessor : Loading config: C:\users\mpf\mpfven\Lib\site-packages\mpf\mpfconfig.yaml
+2026-05-20 23:18:38,021 : INFO : ConfigProcessor : Loading config from file C:\users\mpf\documents\wcgpin1\config\config.yaml.
+2026-05-20 23:18:38,023 : INFO : ConfigProcessor : Loading config: C:\users\mpf\documents\wcgpin1\config\config.yaml
+2026-05-20 23:18:38,026 : INFO : ConfigProcessor : Loading config: C:\users\mpf\documents\wcgpin1\config\config_ball_devices.yaml
+2026-05-20 23:18:38,028 : INFO : ConfigProcessor : Loading config: C:\users\mpf\documents\wcgpin1\config\config_coils.yaml
+2026-05-20 23:18:38,032 : INFO : ConfigProcessor : Loading config: C:\users\mpf\documents\wcgpin1\config\config_switches.yaml
+2026-05-20 23:18:38,033 : INFO : ConfigProcessor : Config file cache created: C:\Users\mpf\AppData\Local\Temp\79c4d80ce629f23fc794c150aa180213.mpf_cache
+2026-05-20 23:18:38,138 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\7e0b951d6590b841dca7e21104841ff3.mpf_cache
+2026-05-20 23:18:38,139 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\7619cb164ca9753a8c8174f599337faf.mpf_cache
+2026-05-20 23:18:38,139 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\7e0b951d6590b841dca7e21104841ff3.mpf_cache
+2026-05-20 23:18:38,140 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\e17831009a0d4b99b759e461e9901fd1.mpf_cache
+2026-05-20 23:18:38,141 : WARNING : ConfigProcessor : Config file in cache changed: C:\users\mpf\documents\wcgpin1\modes\bumpers\config\bumpers.yaml
+2026-05-20 23:18:38,141 : INFO : ConfigProcessor : Loading config from file C:\users\mpf\documents\wcgpin1\modes\bumpers\config\bumpers.yaml.
+2026-05-20 23:18:38,165 : INFO : ConfigProcessor : Loading config: C:\users\mpf\documents\wcgpin1\modes\bumpers\config\bumpers.yaml
+2026-05-20 23:18:38,166 : INFO : ConfigProcessor : Config file cache created: C:\Users\mpf\AppData\Local\Temp\b2527734cca651781ec2296cfbe7a175.mpf_cache
+2026-05-20 23:18:38,167 : INFO : Machine : Mission Pinball Framework Core Engine v0.81.0.dev1
+2026-05-20 23:18:38,167 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-05-20-23-18-37-mpf-DESKTOP-OC28BPB.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\users\\mpf\\documents\\wcgpin1\\logs\\2026-05-20-23-18-37-mpf-DESKTOP-OC28BPB.log'}
+2026-05-20 23:18:38,167 : INFO : Machine : MPF path: C:\users\mpf\mpfven\Lib\site-packages\mpf
+2026-05-20 23:18:38,167 : INFO : Machine : Machine path: C:\users\mpf\documents\wcgpin1
+2026-05-20 23:18:38,167 : INFO : Machine : Platform: win32
+2026-05-20 23:18:38,167 : INFO : Machine : Python executable location: C:\users\mpf\mpfven\Scripts\python.exe
+2026-05-20 23:18:38,167 : INFO : Machine : Python version: 3.13.12 (64-bit)
+2026-05-20 23:18:38,169 : INFO : Machine : Initializing MPF...
+2026-05-20 23:18:38,286 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-05-20 23:18:38,310 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-05-20 23:18:38,310 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev1', 'prev_value': None, 'change': True}
+2026-05-20 23:18:38,310 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-05-20 23:18:38,310 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.12', 'prev_value': None, 'change': True}
+2026-05-20 23:18:38,558 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-05-20 23:18:38,559 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-05-20 23:18:38,559 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2026-05-20 23:18:38,559 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-05-20 23:18:38,559 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-05-20 23:18:38,559 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\users\\mpf\\documents\\wcgpin1\\logs\\2026-05-20-23-18-37-mpf-DESKTOP-OC28BPB.log', 'prev_value': None, 'change': True}
+2026-05-20 23:18:38,559 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-05-20 23:18:38,581 : ERROR : asyncio : Exception in callback EventManager._async_handler_done()() at C:\users\mpf\mpfven\Lib\site-packages\mpf\core\events.py:124
+handle: <Handle EventManager._async_handler_done()() at C:\users\mpf\mpfven\Lib\site-packages\mpf\core\events.py:124>
+Traceback (most recent call last):
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\device_manager.py", line 85, in _load_device_modules
+    self.machine.mode_controller.create_mode_devices()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\mode_controller.py", line 81, in create_mode_devices
+    mode.create_mode_devices()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\mode.py", line 425, in create_mode_devices
+    self.machine.device_manager.create_devices(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        collection.name, {device: settings})
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\device_manager.py", line 123, in create_devices
+    self.raise_config_error("Device {}:'{}' does not have a valid config. Expected a dictionary.".format(
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        collection_name, device_name), 3, context=collection_name + "." + device_name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+        from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in DeviceManager: Device shot_groups:'shots' does not have a valid config. Expected a dictionary. Context: shot_groups.shots Error Code: CFE-DeviceManager-3 (https://missionpinball.org/latest/logs)
+2026-05-20 23:18:38,587 : INFO : Machine : Starting the main run loop with active modes: []
+2026-05-20 23:18:38,587 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-05-20 23:18:38,588 : INFO : Machine : Shutting down...
+2026-05-20 23:18:38,588 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-05-20 23:18:39,597 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\mpf\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\events.py", line 127, in _async_handler_done
+    future.result()
+    ~~~~~~~~~~~~~^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\device_manager.py", line 85, in _load_device_modules
+    self.machine.mode_controller.create_mode_devices()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\mode_controller.py", line 81, in create_mode_devices
+    mode.create_mode_devices()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\mode.py", line 425, in create_mode_devices
+    self.machine.device_manager.create_devices(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        collection.name, {device: settings})
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\device_manager.py", line 123, in create_devices
+    self.raise_config_error("Device {}:'{}' does not have a valid config. Expected a dictionary.".format(
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        collection_name, device_name), 3, context=collection_name + "." + device_name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\users\mpf\mpfven\Lib\site-packages\mpf\core\logging.py", line 175, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+        from source_exception
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in DeviceManager: Device shot_groups:'shots' does not have a valid config. Expected a dictionary. Context: shot_groups.shots Error Code: CFE-DeviceManager-3 (https://missionpinball.org/latest/logs)
+2026-05-20 23:18:39,608 : INFO : root : MPF run loop ended.

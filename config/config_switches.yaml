@@ -1,6 +1,14 @@
 #config_version=6
 
 switches:
+  # playfield Switches
+  s_bumper_left:
+    number:
+  s_bumper_right:
+    mumber:
+  s_left_lane:
+    number:
+  
   # cabinet switches
   s_flipper_left:
     number:
