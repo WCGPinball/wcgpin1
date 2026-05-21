@@ -1,0 +1,185 @@
+2026-05-20 21:08:40,460 : INFO : root : Loading config.
+2026-05-20 21:08:40,464 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-05-20 21:08:40,464 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\79c4d80ce629f23fc794c150aa180213.mpf_cache
+2026-05-20 21:08:40,559 : WARNING : ConfigProcessor : Config file in cache changed: C:\users\mpf\documents\wcgpin1\modes\attract\config\attract.yaml
+2026-05-20 21:08:40,559 : INFO : ConfigProcessor : Loading config from file C:\users\mpf\mpfven\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2026-05-20 21:08:40,562 : INFO : ConfigProcessor : Loading config: C:\users\mpf\mpfven\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-05-20 21:08:40,562 : INFO : ConfigProcessor : Loading config from file C:\users\mpf\documents\wcgpin1\modes\attract\config\attract.yaml.
+2026-05-20 21:08:40,589 : INFO : ConfigProcessor : Loading config: C:\users\mpf\documents\wcgpin1\modes\attract\config\attract.yaml
+2026-05-20 21:08:40,590 : INFO : ConfigProcessor : Config file cache created: C:\Users\mpf\AppData\Local\Temp\7e0b951d6590b841dca7e21104841ff3.mpf_cache
+2026-05-20 21:08:40,591 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\7619cb164ca9753a8c8174f599337faf.mpf_cache
+2026-05-20 21:08:40,592 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\7e0b951d6590b841dca7e21104841ff3.mpf_cache
+2026-05-20 21:08:40,594 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\e17831009a0d4b99b759e461e9901fd1.mpf_cache
+2026-05-20 21:08:40,595 : INFO : Machine : Mission Pinball Framework Core Engine v0.81.0.dev1
+2026-05-20 21:08:40,595 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-05-20-21-08-40-mpf-DESKTOP-OC28BPB.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\users\\mpf\\documents\\wcgpin1\\logs\\2026-05-20-21-08-40-mpf-DESKTOP-OC28BPB.log'}
+2026-05-20 21:08:40,595 : INFO : Machine : MPF path: C:\users\mpf\mpfven\Lib\site-packages\mpf
+2026-05-20 21:08:40,595 : INFO : Machine : Machine path: C:\users\mpf\documents\wcgpin1
+2026-05-20 21:08:40,595 : INFO : Machine : Platform: win32
+2026-05-20 21:08:40,595 : INFO : Machine : Python executable location: C:\users\mpf\mpfven\Scripts\python.exe
+2026-05-20 21:08:40,595 : INFO : Machine : Python version: 3.13.12 (64-bit)
+2026-05-20 21:08:40,600 : INFO : Machine : Initializing MPF...
+2026-05-20 21:08:40,713 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-05-20 21:08:40,736 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-05-20 21:08:40,736 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev1', 'prev_value': None, 'change': True}
+2026-05-20 21:08:40,736 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-05-20 21:08:40,737 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.12', 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,005 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,005 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,006 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,006 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,006 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,006 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\users\\mpf\\documents\\wcgpin1\\logs\\2026-05-20-21-08-40-mpf-DESKTOP-OC28BPB.log', 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,006 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-05-20 21:08:41,028 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-05-20 21:08:41,029 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-05-20 21:08:41,030 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-05-20 21:08:41,044 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2026-05-20 21:08:41,046 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2026-05-20 21:08:41,047 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2026-05-20 21:08:41,048 : INFO : ball_device.bd_plunger : State: idle
+2026-05-20 21:08:41,049 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2026-05-20 21:08:41,049 : INFO : ball_device.bd_trough : State: idle
+2026-05-20 21:08:41,063 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-05-20 21:08:41,065 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-05-20 21:08:41,066 : INFO : BallController : Initial balls found: 0
+2026-05-20 21:08:41,067 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,068 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,068 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,068 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,068 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,068 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,068 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,068 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,068 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2026-05-20 21:08:41,068 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-05-20 21:08:41,069 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-05-20 21:08:41,069 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-05-20 21:08:41,074 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-05-20 21:08:41,075 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-05-20 21:08:41,075 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-05-20 21:08:41,075 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-05-20 21:08:41,075 : INFO : Timer.attract_carousel_timer : Starting Timer.
+2026-05-20 21:08:41,075 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_started'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-05-20 21:08:41,075 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_tick'====== Args={'ticks': 0, 'ticks_remaining': 1}
+2026-05-20 21:08:41,076 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-05-20 21:08:41,076 : INFO : Mode.attract : Started. Priority: 10
+2026-05-20 21:08:41,076 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-05-20 21:08:41,076 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-05-20 21:08:41,077 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-05-20 21:08:41,077 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2026-05-20 21:08:41,078 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2026-05-20 21:08:41,102 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2026-05-20 21:08:41,102 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2026-05-20 21:08:41,102 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2026-05-20 21:08:46,083 : INFO : Timer.attract_carousel_timer : Timer Complete
+2026-05-20 21:08:46,083 : INFO : Timer.attract_carousel_timer : Stopping Timer
+2026-05-20 21:08:46,084 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_stopped'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-05-20 21:08:46,084 : INFO : EventManager : Event: ======'timer_attract_carousel_timer_complete'====== Args={'ticks': 1, 'ticks_remaining': 1}
+2026-05-20 21:08:46,085 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-05-20 21:08:58,531 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:08:58,531 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:08:58,532 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2026-05-20 21:08:58,597 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:00,654 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:00,655 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:00,655 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-05-20 21:09:00,721 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:01,307 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:01,307 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:01,308 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-05-20 21:09:01,390 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:01,875 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:01,876 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:01,876 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2026-05-20 21:09:01,975 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:02,460 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:02,461 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:02,461 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-05-20 21:09:02,528 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:03,012 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:03,013 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:03,013 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-05-20 21:09:03,096 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:03,547 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:03,548 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:03,548 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2026-05-20 21:09:03,631 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:03,966 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:03,966 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:03,967 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-05-20 21:09:04,015 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:04,367 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:04,368 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:04,368 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-05-20 21:09:04,434 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:04,769 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:04,769 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:04,770 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2026-05-20 21:09:04,835 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:05,186 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:05,187 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:05,188 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-05-20 21:09:05,236 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:05,621 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:05,622 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:05,623 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-05-20 21:09:05,671 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:06,023 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:06,024 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:06,025 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2026-05-20 21:09:06,073 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:06,441 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:06,441 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:06,442 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-05-20 21:09:06,491 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:06,876 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:06,876 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:06,877 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-05-20 21:09:06,943 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:07,144 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:07,144 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:07,145 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2026-05-20 21:09:07,210 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:07,361 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:07,362 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:07,362 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-05-20 21:09:07,411 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:07,545 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:07,545 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:07,546 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-05-20 21:09:07,595 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:07,712 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:07,713 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:07,713 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2026-05-20 21:09:07,779 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:07,896 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:07,896 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:07,897 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-05-20 21:09:07,946 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:08,213 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:08,213 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:08,214 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-05-20 21:09:08,246 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:08,432 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:08,432 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:08,433 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:08,434 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2026-05-20 21:09:08,582 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:08,582 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:08,583 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-05-20 21:09:08,649 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:08,816 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:08,816 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:08,817 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'credits'}
+2026-05-20 21:09:08,849 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:08,984 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:08,984 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:08,985 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'mpf_logo'}
+2026-05-20 21:09:09,084 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:09,100 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 21:09:09,101 : INFO : EventManager : Event: ======'s_flipper_right_active'====== Args={}
+2026-05-20 21:09:09,101 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': 'forwards', 'item': 'title'}
+2026-05-20 21:09:09,201 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 21:09:12,548 : INFO : Machine : Shutting down...
+2026-05-20 21:09:12,548 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-05-20 21:09:12,554 : INFO : root : MPF run loop ended.

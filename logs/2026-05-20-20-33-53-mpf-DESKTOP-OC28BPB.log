@@ -1,0 +1,195 @@
+2026-05-20 20:33:53,341 : INFO : root : Loading config.
+2026-05-20 20:33:53,344 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-05-20 20:33:53,345 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\79c4d80ce629f23fc794c150aa180213.mpf_cache
+2026-05-20 20:33:53,444 : WARNING : ConfigProcessor : Config file in cache changed: C:\users\mpf\documents\wcgpin1\modes\attract\config\attract.yaml
+2026-05-20 20:33:53,444 : INFO : ConfigProcessor : Loading config from file C:\users\mpf\mpfven\Lib\site-packages\mpf\modes\attract\config\attract.yaml.
+2026-05-20 20:33:53,448 : INFO : ConfigProcessor : Loading config: C:\users\mpf\mpfven\Lib\site-packages\mpf\modes\attract\config\attract.yaml
+2026-05-20 20:33:53,448 : INFO : ConfigProcessor : Loading config from file C:\users\mpf\documents\wcgpin1\modes\attract\config\attract.yaml.
+2026-05-20 20:33:53,465 : INFO : ConfigProcessor : Loading config: C:\users\mpf\documents\wcgpin1\modes\attract\config\attract.yaml
+2026-05-20 20:33:53,466 : INFO : ConfigProcessor : Config file cache created: C:\Users\mpf\AppData\Local\Temp\7e0b951d6590b841dca7e21104841ff3.mpf_cache
+2026-05-20 20:33:53,467 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\7619cb164ca9753a8c8174f599337faf.mpf_cache
+2026-05-20 20:33:53,468 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\7e0b951d6590b841dca7e21104841ff3.mpf_cache
+2026-05-20 20:33:53,514 : INFO : ConfigProcessor : Loading config from cache: C:\Users\mpf\AppData\Local\Temp\e17831009a0d4b99b759e461e9901fd1.mpf_cache
+2026-05-20 20:33:53,517 : INFO : Machine : Mission Pinball Framework Core Engine v0.81.0.dev1
+2026-05-20 20:33:53,517 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2026-05-20-20-33-53-mpf-DESKTOP-OC28BPB.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'full_logfile_path': 'C:\\users\\mpf\\documents\\wcgpin1\\logs\\2026-05-20-20-33-53-mpf-DESKTOP-OC28BPB.log'}
+2026-05-20 20:33:53,517 : INFO : Machine : MPF path: C:\users\mpf\mpfven\Lib\site-packages\mpf
+2026-05-20 20:33:53,517 : INFO : Machine : Machine path: C:\users\mpf\documents\wcgpin1
+2026-05-20 20:33:53,517 : INFO : Machine : Platform: win32
+2026-05-20 20:33:53,517 : INFO : Machine : Python executable location: C:\users\mpf\mpfven\Scripts\python.exe
+2026-05-20 20:33:53,517 : INFO : Machine : Python version: 3.13.12 (64-bit)
+2026-05-20 20:33:53,520 : INFO : Machine : Initializing MPF...
+2026-05-20 20:33:53,630 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,653 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,653 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev1', 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,653 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.81.0.dev1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,654 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.13.12', 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,763 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-11-10.0.26200-SP0', 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,764 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,764 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '11', 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,764 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.26200', 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,764 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,764 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': 'C:\\users\\mpf\\documents\\wcgpin1\\logs\\2026-05-20-20-33-53-mpf-DESKTOP-OC28BPB.log', 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,764 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-05-20 20:33:53,781 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2026-05-20 20:33:53,782 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2026-05-20 20:33:53,783 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2026-05-20 20:33:53,792 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2026-05-20 20:33:53,793 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2026-05-20 20:33:53,793 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2026-05-20 20:33:53,793 : INFO : ball_device.bd_plunger : State: idle
+2026-05-20 20:33:53,793 : INFO : ball_device.bd_trough : BCH: Initial count: 0
+2026-05-20 20:33:53,793 : INFO : ball_device.bd_trough : State: idle
+2026-05-20 20:33:53,803 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2026-05-20 20:33:53,805 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2026-05-20 20:33:53,805 : INFO : BallController : Initial balls found: 0
+2026-05-20 20:33:53,806 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_3'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,806 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_left_active'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,806 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_flipper_right'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,806 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,806 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_1'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,806 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough_2'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,806 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,806 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,806 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2026-05-20 20:33:53,806 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2026-05-20 20:33:53,807 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2026-05-20 20:33:53,807 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2026-05-20 20:33:53,811 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2026-05-20 20:33:53,811 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2026-05-20 20:33:53,812 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2026-05-20 20:33:53,812 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2026-05-20 20:33:53,813 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2026-05-20 20:33:53,813 : INFO : Mode.attract : Started. Priority: 10
+2026-05-20 20:33:53,813 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2026-05-20 20:33:53,813 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2026-05-20 20:33:53,814 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2026-05-20 20:33:53,814 : INFO : EventManager : Event: ======'carousel_item_highlighted'====== Args={'carousel': 'attract', 'direction': None, 'item': 'title'}
+2026-05-20 20:33:53,814 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2026-05-20 20:33:53,843 : INFO : EventManager : Event: ======'slide_attract_created'====== Args={'_from_bcp': True}
+2026-05-20 20:33:53,843 : INFO : EventManager : Event: ======'slide__removed'====== Args={'_from_bcp': True}
+2026-05-20 20:33:53,843 : INFO : EventManager : Event: ======'slide_attract_active'====== Args={'original_context': 'attract', 'original_calling_context': 'mode_attract_started', 'priority': 10.0, 'cmd': 'slides_play', '_from_bcp': True}
+2026-05-20 20:34:00,273 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:00,305 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:00,673 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:00,773 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:01,108 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:01,175 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:01,308 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:01,409 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:01,995 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:02,061 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:02,161 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:02,262 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:02,496 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:02,579 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:02,680 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:02,747 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:02,964 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:03,047 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:03,700 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:03,800 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:07,413 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:07,480 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:07,564 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:07,647 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:07,781 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:07,848 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:07,982 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:08,049 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:08,166 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:08,233 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:08,349 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:08,417 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:08,534 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:08,600 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:08,718 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:08,785 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:08,885 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:08,952 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:09,086 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:09,153 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:09,287 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:09,319 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:09,571 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:09,654 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:09,956 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:10,006 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:10,140 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:10,207 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:10,340 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:10,407 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:10,541 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:10,608 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:10,741 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:10,792 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:10,926 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:11,009 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:11,343 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:11,377 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:11,527 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:11,595 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:11,895 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:11,962 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:12,130 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:12,131 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:12,213 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:12,229 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:12,448 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:12,464 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:12,548 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:12,549 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:12,816 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:12,817 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:12,899 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:12,900 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:13,183 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:13,384 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:13,434 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:13,552 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:13,567 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:13,719 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:13,735 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:13,819 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:13,852 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:13,953 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:13,955 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:14,036 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:14,037 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:14,103 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:14,822 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:14,889 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:15,006 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:15,123 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:15,291 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:15,407 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:15,441 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:15,541 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:15,575 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:15,659 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:15,692 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:15,759 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:16,160 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:16,311 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:16,327 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:16,411 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:16,428 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:16,546 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:16,561 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:16,595 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:16,612 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:16,729 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:16,829 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:16,913 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:16,947 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:16,947 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:17,013 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:17,097 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:17,147 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:17,214 : INFO : SwitchController : <<<<<<< 's_flipper_right' active >>>>>>>
+2026-05-20 20:34:17,214 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:17,331 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:17,381 : WARNING : BcpInterface : Received BCP switch message with invalid switchname: 's_flipper_left'
+2026-05-20 20:34:17,382 : INFO : SwitchController : <<<<<<< 's_flipper_right' inactive >>>>>>>
+2026-05-20 20:34:19,900 : INFO : Machine : Shutting down...
+2026-05-20 20:34:19,901 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-05-20 20:34:19,908 : INFO : root : MPF run loop ended.
