@@ -20,14 +20,14 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.1254902, 0, 0.60784316, 1)
 
-[node name="player_score" type="Label" parent="ColorRect" unique_id=1521193459]
+[node name="player_score" type="Label" parent="." unique_id=1521193459]
 layout_mode = 1
 anchors_preset = 14
 anchor_top = 0.5
 anchor_right = 1.0
 anchor_bottom = 0.5
-offset_top = -11.5
-offset_bottom = 11.5
+offset_top = -82.5
+offset_bottom = 82.5
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/outline_size = 10
@@ -39,4 +39,38 @@ script = ExtResource("2_3761s")
 variable_name = "score"
 comma_separate = true
 min_digits = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=608074149]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 210.0
+grow_horizontal = 2
+theme_override_constants/margin_left = 40
+theme_override_constants/margin_top = 40
+
+[node name="HFlowContainer" type="HFlowContainer" parent="MarginContainer" unique_id=1937675068]
+layout_mode = 2
+theme_override_constants/h_separation = 30
+
+[node name="player_number" type="Label" parent="MarginContainer/HFlowContainer" unique_id=1805785847]
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "PLAYER 1"
+script = ExtResource("2_3761s")
+variable_name = "ball"
+min_digits = 1
+template_string = "Ball %s"
+min_players = 2
+metadata/_custom_type_script = "uid://bfvhmv2eirpua"
+
+[node name="player_ball" type="Label" parent="MarginContainer/HFlowContainer" unique_id=2097377975]
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "BALL 1"
+script = ExtResource("2_3761s")
+variable_name = "ball"
+min_digits = 1
+template_string = "Ball %s"
 metadata/_custom_type_script = "uid://bfvhmv2eirpua"

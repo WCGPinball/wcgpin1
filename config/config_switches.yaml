@@ -10,6 +10,9 @@ switches:
     number:
   
   # cabinet switches
+  s_start:
+    number:
+    tags: start
   s_flipper_left:
     number:
     tags: left_flipper
