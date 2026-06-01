@@ -7,10 +7,10 @@ mode_settings:
   selectable_items:
     - title
     - credits
-    #- last_scores_1p{machine.player1_score and not machine.player2_score}
-    #- last_scores_2p{machine.player2_score and not machine.player3_score}
-    #- last_scores_3p{machine.player3_score and not machine.player4_score}
-    #- last_scores_4p{machine.player4_score}
+    - last_scores_1p{machine.player1_score and not machine.player2_score}
+    - last_scores_2p{machine.player2_score and not machine.player3_score}
+    - last_scores_3p{machine.player3_score and not machine.player4_score}
+    - last_scores_4p{machine.player4_score}
     - mpf_logo
   next_item_events: s_flipper_right_active, timer_attract_carousel_timer_complete
   previous_item_events: s_flipper_left_active
@@ -29,7 +29,7 @@ timers:
     tick_interval: 5s
     start_running: true
     control_events:
-      - event: item_highlighted
+      - event: carousel_item_highlighted
         action: restart
       - event: flipper_cradle
         action: stop
